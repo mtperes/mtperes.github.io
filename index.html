@@ -3,14 +3,15 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Mtperes</title>
+  <title>of tomorrow</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="css/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/css/test.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
   
@@ -47,11 +48,9 @@
     
       <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
     </div>
-          <div class="row center ">
-            <a href="#" id="btn-more" data-target="slide-out" class="btn-floating btn-large waves-effect  waves-light teal lighten-1 sidenav-trigger " ><i class="material-icons">add</i></a>
-          </div>
+
           <div class="row center">
-              <a href="#" id="btn-more" data-target="slide-out-right" class="btn-floating btn-large waves-effect  waves-light teal lighten-1 sidenav-trigger " ><i class="material-icons">add</i></a>
+            <a href="#" id="btn-more" data-target="slide-out" class="btn-floating btn-large waves-effect  waves-light teal lighten-1 sidenav-trigger " ><i class="material-icons">add</i></a>
             </div>
     <div id="content" class="container">
        
@@ -82,36 +81,41 @@
     <ul id="slide-out" class="sidenav"><!-- Sidenav -->
       <li><div class="user-view teal">
   
-        <a href="#user"><img class="circle" src="img/profile.jpeg"></a>
-        <a href="#name"><span class="aliceblue-text ">"A Creative mind in persuit of new challenges"</span></a>
-        <a href="#email"><span class="aliceblue-text ">Matheus Nascimento</span></a>
+        <!-- <a href="#user"><img class="circle" src="img/profile.jpeg"></a> -->
+        <h5 class="text ">"A Creative mind in persuit of new challenges"</h5>
+         <h6 class="text ">Matheus Nascimento</h6>
       </div></li>
-      <li><a class="waves-effect" href="#!"><i class="material-icons">cloud</i>SkillSet </a></li>
-      <li><a class="waves-effect" href="#!"><i class="material-icons">cloud</i>Academic </a></li>
-      <li><a class="waves-effect" href="#!"><i class="material-icons">cloud</i>Professional </a></li>
-      <li><a class="waves-effect" href="#!"><i class="material-icons">cloud</i>Portfolio </a></li>
-      <li><a class="waves-effect" href="#!"><i class="material-icons">cloud</i>Contact </a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">book</i>Academic </a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">laptop_mac</i> Professional</a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">code</i>Knowledge Base </a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">trending_up</i>Trajectory</a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">alternate_email</i>Contact</a></li>
       <div class="row center ">
           <a href="#" id="btn-back" data-target="slide-out" class="btn-floating btn-large waves-effect  waves-light teal lighten-1 sidenav-close" style="display: block;"><i class="material-icons">chevron_right</i></a>
       </div>
     </ul> <!-- Fim Sidenav -->
+      <section> <!-- TEST AREA-->
 
-    <ul id="slide-out-right " class="sidenav">
-        <li><div class="user-view teal">
-    
-          <a href="#user"><img class="circle" src="img/profile.jpeg"></a>
-          <a href="#name"><span class="aliceblue-text ">"2---> "</span></a>
-          <a href="#email"><span class="aliceblue-text ">Matheus Nascimento</span></a>
-        </div></li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-        <div class="row center ">
-            <a href="index.html" id="btn-back" data-target="slide-out1" class="btn-floating btn-large waves-effect  waves-light teal lighten-1 sidenav-close" style="display: block;"><i class="material-icons">chevron_right</i></a>
+          <div class="quote-box">
+            <div class="quote-text">
+              <i class="fa fa-quote-left"> </i><span id="text"></span>
+            </div>
+            <div class="quote-author">
+              - <span id="author"></span>
+            </div>
+            <div class="buttons">
+              <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a class="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank">
+                <i class="fa fa-tumblr"></i>
+              </a>
+              <button class="button" id="new-quote">New quote</button>
+            </div>
           </div>
-      </ul>
+          <div class="footer"> by <a href="https://codepen.io/hezag/">gnuns</a></div>
+
+      </section><!-- END TEST AREA-->
   </div><!-- End body-->
 
 
@@ -123,6 +127,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/test.js"></script>
 
   </body>
 </html>
