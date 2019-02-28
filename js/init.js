@@ -49,7 +49,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = "!<>-_\\/[]{}—=+*^?#________";
+    this.chars = "!<>-_\\/[&]{}@—=+?()";
     this.update = this.update.bind(this);
   }
   setText(newText) {
@@ -105,7 +105,7 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  "Matheus Nascimento",
+  "Systems Developer",
   "UX Designer",
   "Digital Artist",
   "FilmMaker",

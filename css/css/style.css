@@ -86,6 +86,14 @@ h6 text {
   right: 0;
   left: 0; }
 
+.quote-text {
+  font-family: 'Open Sans';
+  font-weight: 300; }
+  .quote-text i {
+    positio: absolute;
+    top: 5%;
+    left: 3%; }
+
 .teal-text.text-lighten-2 {
   color: #e7e7e7 !important;
   font-family: 'Arvo';
@@ -102,9 +110,9 @@ h6 text {
 
 #btn-more {
   display: none;
-  position: absolute;
-  margin-top: -2%;
-  margin-left: 1%; }
+  position: fixed;
+  top: 63%;
+  left: 70%; }
 
 #btn-back {
   display: none;
