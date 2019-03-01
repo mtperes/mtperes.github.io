@@ -5,14 +5,21 @@
  *
  * Made By MaterializeCSS.com
  */
-html, body {
-  z-index: -6;
-  height: 100%; }
-
-nav ul a,
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Mr+Dafoe");
 nav .brand-logo {
   color: teal;
-  /* color: #26a69a */ }
+  font-family: 'Mr Dafoe';
+  -webkit-transform: rotate(-32deg);
+  -ms-transform: rotate(-32deg);
+  transform: rotate(-32deg);
+  line-height: 26px;
+  margin-top: 2%;
+  margin-left: 15% !important; }
+
+.material-icons:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5); }
 
 .pushpin-demo-nav {
   background-color: aliceblue;
@@ -27,9 +34,6 @@ p {
   line-height: 2rem;
   font-family: 'Arvo';
   color: teal; }
-
-.sidenav-trigger {
-  background: indigo; }
 
 .user-view {
   width: 100wh;
@@ -70,7 +74,7 @@ p {
 h1,
 h5 text {
   font-family: "Open Sans";
-    font-family-font-size: 20px;
+    font-family-color: linear-gradient(-45deg, #00F260, blue, #5B86E5, #00F260);
   font-weight: 300;
   text-align: center;
   top: 45%;
@@ -78,21 +82,34 @@ h5 text {
   left: 0; }
 
 h6 text {
-  font-family: "Open Sans";
-    font-family-font-size: 12px;
+  font-family: 'Open Sans';
   font-weight: 300;
   text-align: center;
   top: 45%;
   right: 0;
   left: 0; }
 
-.quote-text {
-  font-family: 'Open Sans';
-  font-weight: 300; }
-  .quote-text i {
-    positio: absolute;
-    top: 5%;
-    left: 3%; }
+nav ul li a {
+  font-family: 'IBM Plex Sans'; }
+
+.waves-effect:hover i {
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5); }
+
+.quote-text i {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+#author {
+  float: right; }
 
 .teal-text.text-lighten-2 {
   color: #e7e7e7 !important;
@@ -110,9 +127,11 @@ h6 text {
 
 #btn-more {
   display: none;
-  position: fixed;
-  top: 63%;
-  left: 70%; }
+  position: relative;
+  margin-left: 70%; }
+
+.btn-floating.halfway-fab i {
+  color: tomato !important; }
 
 #btn-back {
   display: none;

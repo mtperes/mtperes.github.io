@@ -7,17 +7,29 @@
  *
  * Made By MaterializeCSS.com
  */
-html, body 
-  z-index: -6
-  height: 100%
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Mr+Dafoe')
+
+$gradient: linear-gradient( -45deg ,#00F260,blue,#5B86E5,#00F260 )
 
 
-nav ul a,
+   
 nav .brand-logo 
-  color:  teal
-  /* color: #26a69a */
-.light
+
+  color: teal
+  font-family: 'Mr Dafoe'
+  transform: rotate(-32deg)
+  line-height: 26px
+  margin-top: 2%
+  margin-left: 15% !important
   
+.material-icons
+  
+
+.material-icons:hover
+ 
+  transform: scale(1.5)  
+
 
 .pushpin-demo-nav 
   background-color: aliceblue
@@ -36,17 +48,11 @@ p
   color: teal
 
 
-
-.sidenav-trigger 
-  color:teal 
-
-
-  background: indigo
 .user-view
 	width: 100wh
 	height: 30vh
 	color: #fff
-	background: linear-gradient(-45deg , #00F260 , blue , #5B86E5 , #00F260 )
+	background: $gradient
 	background-size: 400% 400%
 	-webkit-animation: Gradient 15s ease infinite
 	-moz-animation: Gradient 15s ease infinite
@@ -92,7 +98,7 @@ p
 h1,
 h5 text
 	font-family: 'Open Sans'
-  font-size: 20px
+  color: $gradient
 	font-weight: 300
 	text-align: center
 	top: 45%
@@ -101,25 +107,28 @@ h5 text
 
 h6 text
 	font-family: 'Open Sans'
-  font-size: 12px
 	font-weight: 300
 	text-align: center
 	top: 45%
 	right: 0
 	left: 0
 
+nav ul li a
+  font-family: 'IBM Plex Sans'
 
-.quote-text 
-  font-family: 'Open Sans'
-  font-weight: 300
-
-
-
+.waves-effect:hover
   i
-    positio: absolute
-    top: 5%
-    left: 3%
+    transition: all .5s  
+    transform: scale(1.5)
 
+.quote-text i
+  position: absolute
+  top: 5%
+  left: 3%
+  transform: rotate(180deg)
+
+#author 
+  float: right
 
 
   
@@ -144,11 +153,11 @@ h6 text
 #btn-more
   color:aliceblue
   display: none
-  position: fixed
-  top: 63%
-  left: 70%
+  position: relative
+  margin-left: 70%
+.btn-floating.halfway-fab i
+  color: tomato !important
 
-.btn-floating-center .btn-large
 
 
 
@@ -195,7 +204,7 @@ h6 text
 
 
 
-@media only screen and (max-width : 992px) 
+@media only screen and (max-width: 992px) 
   .parallax-container .section 
     position: absolute
     top: 40%
