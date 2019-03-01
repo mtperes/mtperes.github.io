@@ -14,7 +14,7 @@ nav .brand-logo {
   transform: rotate(-32deg);
   line-height: 26px;
   margin-top: 2%;
-  margin-left: 15% !important; }
+  margin-left: 15%; }
 
 .material-icons:hover {
   -webkit-transform: scale(1.5);
@@ -175,7 +175,9 @@ nav ul li a {
     position: absolute;
     top: 40%; }
   #index-banner .section {
-    top: 10%; } }
+    top: 10%; }
+  nav .brand-logo {
+    left: auto !important; } }
 
 @media only screen and (max-width: 600px) {
   #index-banner .section {
