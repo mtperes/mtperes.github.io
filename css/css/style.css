@@ -6,33 +6,57 @@
  * Made By MaterializeCSS.com
  */
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Mr+Dafoe");
-nav .brand-logo {
-  color: teal;
-  font-family: 'Mr Dafoe';
-  -webkit-transform: rotate(-32deg);
-  -ms-transform: rotate(-32deg);
-  transform: rotate(-32deg);
-  line-height: 26px;
-  margin-top: 2%;
-  margin-left: 15%; }
+@import url("https://fonts.googleapis.com/css?family=Condiment");
+nav {
+  background: aliceblue; }
+  nav .brand-logo {
+    color: teal;
+    font-family: 'Condiment';
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    line-height: 26px;
+    margin-top: 1%;
+    margin-left: 20%;
+    text-shadow: .5px .3px tomato;
+    font-size: 2.4em; }
+  nav .btn-floating {
+    display: none;
+    position: relative;
+    margin-left: 70%;
+    bottom: -25px; }
+    nav .btn-floating i {
+      color: tomato;
+      -webkit-transition: ease-in .4s, ease-out .4s !important;
+      -o-transition: ease-in .4s, ease-out .4s !important;
+      transition: ease-in .4s, ease-out .4s !important; }
+
+.sidenav i {
+  -webkit-transition: ease-in .5s, ease-out .5s !important;
+  -o-transition: ease-in .5s, ease-out .5s !important;
+  transition: ease-in .5s, ease-out .5s !important; }
+
+.sidenav li:hover a {
+  background: rgba(0, 128, 128, 0.1); }
+
+.sidenav li:hover i {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5); }
 
 .material-icons:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5); }
 
-.pushpin-demo-nav {
-  background-color: aliceblue;
-  top: 0px; }
-
 section {
-  font-family: Chakra Petch;
+  font-family: 'Chakra Petch';
   text-align: center;
   padding: 5%; }
 
-p {
+section p {
   line-height: 2rem;
-  font-family: 'Arvo';
+  font-family: 'IBM Plex Sans';
   color: teal; }
 
 .user-view {
@@ -71,7 +95,11 @@ p {
   100% {
     background-position: 0% 50%; } }
 
-h1,
+h1 {
+  font-family: 'IBM Plex Sans';
+  font-weight: 700;
+  font-size: 5em; }
+
 h5 text {
   font-family: "Open Sans";
     font-family-color: linear-gradient(-45deg, #00F260, blue, #5B86E5, #00F260);
@@ -89,17 +117,6 @@ h6 text {
   right: 0;
   left: 0; }
 
-nav ul li a {
-  font-family: 'IBM Plex Sans'; }
-
-.waves-effect:hover i {
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5); }
-
 .quote-text i {
   position: absolute;
   top: 5%;
@@ -111,34 +128,10 @@ nav ul li a {
 #author {
   float: right; }
 
-.teal-text.text-lighten-2 {
-  color: #e7e7e7 !important;
-  font-family: 'Arvo';
-  text-shadow: 1px 3px 25px grey;
-  font-size: 500%; }
-
-#signture {
-  margin-top: 13%; }
-
 #subtitle {
   margin-top: 10%;
   font-family: 'Chakra Petch', sans-serif;
   text-shadow: 0 0 5px black; }
-
-#btn-more {
-  display: none;
-  position: relative;
-  margin-left: 70%; }
-
-.btn-floating.halfway-fab i {
-  color: tomato !important; }
-
-#btn-back {
-  display: none;
-  position: absolute;
-  margin-top: 10.1%;
-  margin-left: 95.9%;
-  z-index: 1000; }
 
 #content {
   background-color: aliceblue;
@@ -156,8 +149,6 @@ nav ul li a {
     width: 50%; }
 
 .parallax-container .parallax img {
-  -webkit-filter: grayscale(180%);
-  filter: grayscale(180%);
   opacity: 0;
   position: absolute;
   left: 50%;
@@ -177,6 +168,7 @@ nav ul li a {
   #index-banner .section {
     top: 10%; }
   nav .brand-logo {
+    margin-top: 3.5%;
     left: auto !important; } }
 
 @media only screen and (max-width: 600px) {

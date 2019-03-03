@@ -111,7 +111,7 @@ const phrases = [
   "FilmMaker",
 ];
 
-const el = document.querySelector("#signture");
+const el = document.querySelector("#mainTitle");
 const fx = new TextScramble(el);
 
 let counter = 0;
