@@ -1,6 +1,8 @@
 (function($){
   $(function(){
 
+    
+    $('.scrollspy').scrollSpy();
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     console.log('hello world');

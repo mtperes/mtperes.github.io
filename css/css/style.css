@@ -18,7 +18,7 @@ nav {
     line-height: 26px;
     margin-top: 1%;
     margin-left: 20%;
-    text-shadow: .5px .3px tomato;
+    text-shadow: 0.5px 0.3px tomato;
     font-size: 2.4em; }
   nav .btn-floating {
     display: none;
@@ -50,11 +50,15 @@ nav {
   transform: scale(1.5); }
 
 section {
+  background: teal;
+  background-image: url("/img/escheresque.png");
   font-family: 'Chakra Petch';
   text-align: center;
   padding: 5%; }
 
 section p {
+  background: aliceblue;
+  padding: 2%;
   line-height: 2rem;
   font-family: 'IBM Plex Sans';
   color: teal; }
@@ -62,7 +66,7 @@ section p {
 .user-view {
   width: 100wh;
   height: 30vh;
-  color: #fff;
+  color: aliceblue;
   background: -webkit-linear-gradient(135deg, #00F260, blue, #5B86E5, #00F260);
   background: -o-linear-gradient(135deg, #00F260, blue, #5B86E5, #00F260);
   background: linear-gradient(-45deg, #00F260, blue, #5B86E5, #00F260);
@@ -100,14 +104,17 @@ h1 {
   font-weight: 700;
   font-size: 5em; }
 
-h5 text {
-  font-family: "Open Sans";
-    font-family-color: linear-gradient(-45deg, #00F260, blue, #5B86E5, #00F260);
+section h5 {
+  font-family: 'Chakra Petch';
   font-weight: 300;
   text-align: center;
   top: 45%;
   right: 0;
   left: 0; }
+
+section h5 {
+  color: tomato !important;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png"); }
 
 h6 text {
   font-family: 'Open Sans';
@@ -142,8 +149,8 @@ h6 text {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255, 255, 255, 0.9); }
-  .parallax-container .parallax-container .section {
+  color: aliceblue; }
+  .parallax-container .parallax-container section {
     -ms-flex-item-align: auto;
     align-self: auto;
     width: 50%; }
