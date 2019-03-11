@@ -44,7 +44,7 @@ nav {
   -ms-transform: scale(1.5);
   transform: scale(1.5); }
 
-.material-icons:hover {
+.sidenav li:hover .material-icons:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5); }
@@ -55,13 +55,29 @@ section {
   font-family: 'Chakra Petch';
   text-align: center;
   padding: 5%; }
+  section h4, section h6 {
+    color: aliceblue; }
+  section .sub {
+    background: aliceblue;
+    color: teal;
+    padding: 1.5% 2%;
+    border-radius: 50px; }
+    section .sub img {
+      width: 2em; }
+  section .col img {
+    background-image: url("/img/profile.png"); }
+  section p {
+    background: aliceblue;
+    padding: 2%;
+    line-height: 2rem;
+    font-family: 'IBM Plex Sans';
+    color: teal; }
+  section a {
+    color: teal; }
 
-section p {
+section ul {
   background: aliceblue;
-  padding: 2%;
-  line-height: 2rem;
-  font-family: 'IBM Plex Sans';
-  color: teal; }
+  color: DarkSlateGray; }
 
 .user-view {
   width: 100wh;

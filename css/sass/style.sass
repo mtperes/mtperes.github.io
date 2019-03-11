@@ -15,7 +15,8 @@ $gradient: linear-gradient( -45deg ,#00F260,blue,#5B86E5,#00F260)
 
 $main: teal
 $light: aliceblue 
-$accent: tomato    
+$accent: tomato
+$content: DarkSlateGray    
 
 //Color set
   //Teal , tomato, aliceblue
@@ -54,12 +55,12 @@ nav
     transform: scale(1.5)
   
 
-.material-icons
-  
+  .material-icons
+    
 
-.material-icons:hover
- 
-  transform: scale(1.5)  
+  .material-icons:hover
+    transform: scale(1.5) 
+    
 
 
 // .pushpin-demo-nav 
@@ -74,14 +75,28 @@ section
   font-family: 'Chakra Petch'
   text-align: center
   padding: 5%
-       
-section p 
+  h4,h6
+    color: $light
+  .sub
+    background: $light
+    color: $main
+    padding: 1.5% 2%
+    border-radius: 50px
+    img 
+      width: 2em
+  .col img
+      background-image: url("/img/profile.png")    
+  p 
+    background: $light
+    padding: 2%
+    line-height: 2rem
+    font-family: 'IBM Plex Sans'
+    color: $main
+  a
+    color: $main  
+section ul
   background: $light
-  padding: 2%
-  line-height: 2rem
-  font-family: 'IBM Plex Sans'
-  color: teal
-
+  color: $content
 
 .user-view
 	width: 100wh
