@@ -55,15 +55,20 @@ section {
   font-family: 'Chakra Petch';
   text-align: center;
   padding: 5%; }
-  section h4, section h6 {
+  section h4, section h6, section .location {
     color: aliceblue; }
+  section .job {
+    background: teal;
+    border-radius: 15px 0 0 0; }
+    section .job .chip i {
+      font-size: 13px; }
   section .sub {
-    background: aliceblue;
-    color: teal;
-    padding: 1.5% 2%;
-    border-radius: 50px; }
-    section .sub img {
-      width: 2em; }
+    padding: 1%;
+    display: -webkit-inline-box;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    color: aliceblue;
+    width: 100%; }
   section .col img {
     background-image: url("/img/profile.png"); }
   section p {
@@ -71,7 +76,8 @@ section {
     padding: 2%;
     line-height: 2rem;
     font-family: 'IBM Plex Sans';
-    color: teal; }
+    color: teal;
+    margin: 0; }
   section a {
     color: teal; }
 

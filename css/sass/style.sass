@@ -75,15 +75,23 @@ section
   font-family: 'Chakra Petch'
   text-align: center
   padding: 5%
-  h4,h6
+  h4,h6,.location
     color: $light
+  .job
+    background: $main
+    border-radius: 15px 0 0 0 
+    .chip i
+      font-size: 13px 
+
   .sub
-    background: $light
-    color: $main
-    padding: 1.5% 2%
-    border-radius: 50px
-    img 
-      width: 2em
+    padding: 1%
+
+    display: -webkit-inline-box
+    justify-content: space-around
+    color: $light
+    width: 100%
+
+  
   .col img
       background-image: url("/img/profile.png")    
   p 
@@ -92,6 +100,7 @@ section
     line-height: 2rem
     font-family: 'IBM Plex Sans'
     color: $main
+    margin: 0
   a
     color: $main  
 section ul
