@@ -20,7 +20,7 @@
     
 
     $(".slide-out-right").ready(function(){
-      //$(".slide-out-right").edge("right");
+        //$(".slide-out-right").edge("right");
     });
    
     $('#btn-more').click(function() {
