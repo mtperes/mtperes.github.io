@@ -15,17 +15,17 @@
     $('#btn-more').fadeIn(delay);
     console.log('delay ->'+delay);
     //$('#btn-more').delay( delay+100 ).attr("display","block");
-    //$('#btn-more').addClass(" pulse");
-    //console.log('pulse');
-    //$('#btn-more').delay( 999 ).removeClass(" pulse");
+    $('#btn-more').addClass(" pulse");
+    console.log('pulse');
+    
 
     $(".slide-out-right").ready(function(){
-      $(".slide-out-right").edge("right");
+      //$(".slide-out-right").edge("right");
     });
    
     $('#btn-more').click(function() {
       $('#btn-back').delay( delay ).fadeIn(delay);
-       console.log("fade in back" );
+       console.log("fade in back" );$('#btn-more').removeClass(" pulse");
 
      });
     
@@ -127,10 +127,9 @@ const next = () => {
 next();
 
 
-    // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
-    // var collapsibleElem = document.querySelector('.collapsible');
-    // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
-  
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});
  
   });   // end of document ready
 

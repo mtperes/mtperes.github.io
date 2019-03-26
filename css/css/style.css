@@ -30,28 +30,31 @@ nav {
       -webkit-transition: ease-in .4s, ease-out .4s !important;
       -o-transition: ease-in .4s, ease-out .4s !important;
       transition: ease-in .4s, ease-out .4s !important; }
+  nav .btn-floating:hover i {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5); }
 
-.sidenav i {
+i {
   -webkit-transition: ease-in .5s, ease-out .5s !important;
   -o-transition: ease-in .5s, ease-out .5s !important;
   transition: ease-in .5s, ease-out .5s !important; }
 
-.sidenav li:hover a {
+li:hover a {
   background: rgba(0, 128, 128, 0.1); }
 
-.sidenav li:hover i {
+li:hover i {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
-  transform: scale(1.5); }
+  transform: scale(1.5);
+  color: tomato; }
 
-.sidenav li:hover .material-icons:hover {
+li:hover .material-icons:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5); }
 
 section {
-  background: teal;
-  background-image: url("/img/escheresque.png");
   font-family: 'Chakra Petch';
   text-align: center;
   padding: 5%; }
@@ -59,9 +62,12 @@ section {
     color: aliceblue; }
   section .job {
     background: teal;
-    border-radius: 15px 0 0 0; }
-    section .job .chip i {
-      font-size: 13px; }
+    border-radius: 15px 0 0 0;
+    margin-bottom: 2%; }
+    section .job .chip {
+      font-size: 1em;
+      font-size: 1em;
+      margin-top: 8px; }
   section .sub {
     padding: 1%;
     display: -webkit-inline-box;
@@ -69,11 +75,10 @@ section {
     justify-content: space-around;
     color: aliceblue;
     width: 100%; }
-  section .col img {
-    background-image: url("/img/profile.png"); }
+  section .text {
+    padding: 2em; }
   section p {
     background: aliceblue;
-    padding: 2%;
     line-height: 2rem;
     font-family: 'IBM Plex Sans';
     color: teal;
@@ -82,8 +87,18 @@ section {
     color: teal; }
 
 section ul {
-  background: aliceblue;
   color: DarkSlateGray; }
+
+.collapsible-body {
+  background: aliceblue; }
+
+.collapsible-header {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: teal; }
+  .collapsible-header i {
+    color: teal; }
 
 .user-view {
   width: 100wh;
@@ -163,7 +178,9 @@ h6 text {
   text-shadow: 0 0 5px black; }
 
 #content {
-  background-color: aliceblue;
+  background: teal;
+  background-image: url("/img/escheresque.png");
+  background-attachment: fixed;
   width: 100%;
   margin-top: -1.3%; }
 

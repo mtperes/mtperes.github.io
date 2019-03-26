@@ -41,18 +41,22 @@ nav
     i 
       color: $accent
       transition: ease-in .4s, ease-out .4s !important
-
+  .btn-floating:hover
+    i  
+      transform: scale(1.5)
+  
 
   
 
-.sidenav i
+i
   transition: ease-in .5s, ease-out .5s !important
 
-.sidenav li:hover 
+li:hover 
   a
     background: rgba( teal , .1 )
   i
     transform: scale(1.5)
+    color: $accent
   
 
   .material-icons
@@ -70,8 +74,7 @@ nav
 
 
 section 
-  background: $main
-  background-image: url("/img/escheresque.png")
+
   font-family: 'Chakra Petch'
   text-align: center
   padding: 5%
@@ -80,9 +83,12 @@ section
   .job
     background: $main
     border-radius: 15px 0 0 0 
-    .chip i
-      font-size: 13px 
-
+    margin-bottom: 2%
+    .chip 
+      font-size: 1em  
+      i
+      font-size: 1em 
+      margin-top: 8px
   .sub
     padding: 1%
 
@@ -91,12 +97,12 @@ section
     color: $light
     width: 100%
 
+  .text
+    padding: 2em
+ 
   
-  .col img
-      background-image: url("/img/profile.png")    
   p 
     background: $light
-    padding: 2%
     line-height: 2rem
     font-family: 'IBM Plex Sans'
     color: $main
@@ -104,8 +110,19 @@ section
   a
     color: $main  
 section ul
-  background: $light
+  //background: $light
   color: $content
+
+.collapsible-body //academic section 
+  background: $light
+.collapsible-header
+  justify-content: center
+  color: $main
+  i 
+    color: $main
+
+  
+    
 
 .user-view
 	width: 100wh
@@ -117,7 +134,7 @@ section ul
 	-moz-animation: Gradient 15s ease infinite
 	animation: Gradient 15s ease infinite
 
-
+  
 @-webkit-keyframes Gradient 
 	0% 
 		background-position: 0% 50%
@@ -205,7 +222,10 @@ h6 text
 
 
 #content
-  background-color: aliceblue
+  
+  background: $main
+  background-image: url("/img/escheresque.png")
+  background-attachment: fixed
   width: 100%
   margin-top: -1.3%
 
