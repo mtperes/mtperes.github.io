@@ -65,9 +65,11 @@ section {
     border-radius: 15px 0 0 0;
     margin-bottom: 2%; }
     section .job .chip {
-      font-size: 1em;
-      font-size: 1em;
-      margin-top: 8px; }
+      font-size: 11pt;
+      color: teal; }
+      section .job .chip i {
+        font-size: 13pt;
+        margin-top: 8px; }
   section .sub {
     padding: 1%;
     display: -webkit-inline-box;
