@@ -54,6 +54,95 @@ li:hover .material-icons:hover {
   -ms-transform: scale(1.5);
   transform: scale(1.5); }
 
+.card {
+  position: relative;
+  margin: 1em;
+  background: aliceblue;
+  width: 200px;
+  height: 200px; }
+  .card::before, .card::after {
+    content: '';
+    position: absolute;
+    top: 1.25em;
+    bottom: 1.25em;
+    left: 1.25em;
+    right: 1.25em;
+    opacity: 1;
+    -webkit-transition: -webkit-transform ease-out 250ms;
+    transition: -webkit-transform ease-out 250ms;
+    -o-transition: transform ease-out 250ms;
+    transition: transform ease-out 250ms;
+    transition: transform ease-out 250ms, -webkit-transform ease-out 250ms; }
+  .card::before {
+    border-top: 4px dotted tomato;
+    border-bottom: 4px dotted tomato;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1); }
+  .card::after {
+    border-left: 4px dotted tomato;
+    border-right: 4px dotted tomato;
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0); }
+  .card:hover::before {
+    -webkit-transform: scale(1.05, 1);
+    -ms-transform: scale(1.05, 1);
+    transform: scale(1.05, 1); }
+  .card:hover::after {
+    -webkit-transform: scale(1, 1.05);
+    -ms-transform: scale(1, 1.05);
+    transform: scale(1, 1.05); }
+
+.card__img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+  -webkit-transition: opacity ease-out 250ms;
+  -o-transition: opacity ease-out 250ms;
+  transition: opacity ease-out 250ms; }
+
+.card:hover .card__img {
+  opacity: .4; }
+
+.card__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: teal;
+  opacity: 0;
+  -webkit-transition: opacity ease-out 250ms;
+  -o-transition: opacity ease-out 250ms;
+  transition: opacity ease-out 250ms; }
+
+.card:hover .card__text {
+  opacity: 1; }
+
+.card__title {
+  font-size: 2rem;
+  color: teal;
+  margin-bottom: 0; }
+
+.card__body {
+  line-height: 1rem; }
+
+.nice-border {
+  border-style: dotted;
+  border-color: #d57e00;
+  border-image-source: url("/img/dots.svg");
+  border-image-slice: 33% 33%;
+  border-image-repeat: round; }
+
+.source {
+  opacity: .8;
+  position: absolute;
+  width: 100%;
+  bottom: 1em; }
+
 section {
   font-family: 'Chakra Petch';
   text-align: center;
@@ -87,9 +176,8 @@ section {
     margin: 0; }
   section a {
     color: teal; }
-
-section ul {
-  color: DarkSlateGray; }
+  section ul {
+    color: DarkSlateGray; }
 
 .collapsible-body {
   background: aliceblue; }
@@ -213,6 +301,8 @@ h6 text {
   .parallax-container .section {
     position: absolute;
     top: 40%; }
+  .row {
+    display: -webkit-inline-box; }
   #index-banner .section {
     top: 10%; }
   nav .brand-logo {
