@@ -301,8 +301,6 @@ h6 text {
   .parallax-container .section {
     position: absolute;
     top: 40%; }
-  .row {
-    display: -webkit-inline-box; }
   #index-banner .section {
     top: 10%; }
   nav .brand-logo {
