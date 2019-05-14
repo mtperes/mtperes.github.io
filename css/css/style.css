@@ -274,6 +274,22 @@ h6 text {
   width: 100%;
   margin-top: -1.3%; }
 
+.page-footer {
+  background: aliceblue; }
+  .page-footer .btn-send {
+    position: absolute; }
+    .page-footer .btn-send i {
+      color: tomato;
+      -webkit-transition: ease-in .4s, ease-out .4s !important;
+      -o-transition: ease-in .4s, ease-out .4s !important;
+      transition: ease-in .4s, ease-out .4s !important; }
+  .page-footer .btn-send:hover i {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5); }
+  .page-footer .alert {
+    color: tomato; }
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -315,7 +331,8 @@ h6 text {
     margin-top: 3.5%;
     left: auto !important; }
   .knowchips {
-    display: block; } }
+    display: block;
+    text-align: -webkit-center; } }
 
 @media only screen and (max-width: 600px) {
   #index-banner .section {
