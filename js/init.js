@@ -3,6 +3,7 @@
 
     
     $('.scrollspy').scrollSpy();
+    $('.slider').slider();
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     console.log('hello world');
@@ -42,9 +43,13 @@
       
     //   var instances = M.Sidenav.init(elems, options);
     // });
+   
+  
+  
+  
     
-    
-    // ——————————————————————————————————————————————————
+         
+// ——————————————————————————————————————————————————
 // TextScramble
 // ——————————————————————————————————————————————————
 
