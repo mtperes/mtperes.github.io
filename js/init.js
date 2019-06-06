@@ -15,13 +15,14 @@
 
     $('#btn-more').fadeIn(delay);
     console.log('delay ->'+delay);
-    //$('#btn-more').delay( delay+100 ).attr("display","block");
+    
     $('#btn-more').addClass(" pulse");
     console.log('pulse');
-    
+    $('.fav').addClass(" pulse");
+    console.log('pulse');
 
     $(".slide-out-right").ready(function(){
-        //$(".slide-out-right").edge("right");
+        
     });
    
     $('#btn-more').click(function() {
@@ -29,25 +30,7 @@
        console.log("fade in back" );$('#btn-more').removeClass(" pulse");
 
      });
-    
-    // document.addEventListener('DOMContentLoaded', function() {
-    //   console.log("in loop");
-    //   var elems = document.querySelectorAll('.sidenav');
-    //   var instances = M.Sidenav.init(elems, options);
-    // });
 
-    // document.addEventListener('#btn-more', function() {
-    //   var elems = document.querySelectorAll('.sidenav');
-    //     console.log('INN LOOP '+ elems);
-    //   $('.sidenav').addClass(" pulse");
-      
-    //   var instances = M.Sidenav.init(elems, options);
-    // });
-   
-  
-  
-  
-    
          
 // ——————————————————————————————————————————————————
 // TextScramble
