@@ -9,6 +9,7 @@
     console.log('hello world');
     console.log('Welcome to the Back End');
 
+    $('.scrollspy').scrollSpy( 100);
   
     
     var delay = 1000;    
