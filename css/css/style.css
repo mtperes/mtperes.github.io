@@ -54,6 +54,17 @@ li:hover .material-icons:hover {
   -ms-transform: scale(1.5);
   transform: scale(1.5); }
 
+.sidenav li a i {
+  color: teal !important; }
+
+.sidenav li:hover a {
+  background: rgba(0, 128, 128, 0.1); }
+  .sidenav li:hover a i {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    color: tomato; }
+
 .card {
   position: relative;
   margin: 1em;
@@ -406,21 +417,4 @@ footer.page-footer .space {
   .icon-block {
     padding: 0 15px; }
   .icon-block .material-icons {
-    font-size: inherit; }
-  .van {
-    font-size: 100pt;
-    font-weight: 600;
-    padding: 3rem; }
-  p {
-    background: yellow; }
-    p i {
-      width: 5rem;
-      color: tomato;
-      fill: tomato;
-      -webkit-transition: all .5s;
-      -o-transition: all .5s;
-      transition: all .5s; }
-    p i:hover {
-      -webkit-transform: scale(3rem);
-      -ms-transform: scale(3rem);
-      transform: scale(3rem); } }
+    font-size: inherit; } }

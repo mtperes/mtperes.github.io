@@ -10,7 +10,7 @@
     console.log('Welcome to the Back End');
 
     $('.scrollspy').scrollSpy({target: ".academic", offset: -900});
-  
+    
     
     var delay = 1000;    
 
