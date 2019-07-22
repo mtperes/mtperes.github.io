@@ -51,7 +51,7 @@ i
 
 li:hover 
   a
-    background: rgba( teal , .1 )
+    background: rgba( $main , .1 )
   i
     transform: scale(1.5)
     color: $accent
@@ -77,7 +77,7 @@ li:hover
   
   li:hover
     a
-      background: rgba( teal , .1 )
+      background: rgba( $main , .1 )
       i
         transform: scale(1.5)
         color: $accent
@@ -277,12 +277,22 @@ section
 	100% 
 		background-position: 0% 50%
 	
-
+.blur-effect
+  filter: blur(6px)
+  background: rgba($main , .5)
+  height: 100%
+ 
+.blur-effect  
+  width: 100%
+  z-index: -1
+  position: absolute
+          
 
 h1
   font-family: 'IBM Plex Sans'
   font-weight: 700
   font-size: 5em
+  text-shadow: -3px 3px 10px $content
   
 
 section h5
@@ -296,7 +306,7 @@ section h5
 section h5  
   color: $accent !important
   background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png")
-
+  
 
 h6 text
 	font-family: 'Open Sans'
@@ -397,13 +407,14 @@ h6 text
   line-height: 0
   height: auto
   color: $light
+  background: rgba($main , .2)
 
   .parallax-container section 
     align-self: auto
     width: 50%
   
 .parallax-container .parallax img 
-  opacity: 0
+  opacity: .8
   position: absolute
   left: 50%
   bottom: 0
@@ -451,8 +462,8 @@ footer.page-footer
     left: auto !important
     
   .knowchips
-    display: block
-    text-align: -webkit-center
+    display: inline-block
+    text-align: center
 @media only screen and (max-width : 600px) 
   #index-banner .section 
     top: 0

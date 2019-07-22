@@ -237,10 +237,22 @@ section {
   100% {
     background-position: 0% 50%; } }
 
+.blur-effect {
+  -webkit-filter: blur(6px);
+  filter: blur(6px);
+  background: rgba(0, 128, 128, 0.5);
+  height: 100%; }
+
+.blur-effect {
+  width: 100%;
+  z-index: -1;
+  position: absolute; }
+
 h1 {
   font-family: 'IBM Plex Sans';
   font-weight: 700;
-  font-size: 5em; }
+  font-size: 5em;
+  text-shadow: -3px 3px 10px DarkSlateGray; }
 
 section h5 {
   font-family: 'Chakra Petch';
@@ -351,14 +363,15 @@ h6 text {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: aliceblue; }
+  color: aliceblue;
+  background: rgba(0, 128, 128, 0.2); }
   .parallax-container .parallax-container section {
     -ms-flex-item-align: auto;
     align-self: auto;
     width: 50%; }
 
 .parallax-container .parallax img {
-  opacity: 0;
+  opacity: .8;
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -408,8 +421,8 @@ footer.page-footer .space {
     margin-top: 3.5%;
     left: auto !important; }
   .knowchips {
-    display: block;
-    text-align: -webkit-center; } }
+    display: inline-block;
+    text-align: center; } }
 
 @media only screen and (max-width: 600px) {
   #index-banner .section {
