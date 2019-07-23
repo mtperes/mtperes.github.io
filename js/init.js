@@ -9,7 +9,13 @@
     console.log('hello world');
     console.log('Welcome to the Back End');
 
-    $('.scrollspy').scrollSpy({target: ".academic", offset: -900});
+    $('.scrollspy').scrollSpy({scrollOffset: 0});
+    $('#btn-action').click( function (){
+      console.log('btn click')
+      //console.log($('#top').scrollSpy( {target: 'top', scrollOffset: 0}));
+     // window.scrollTo(0, 0);
+     $(this).scrollSpy({throttle: 10 });
+    });
     
     
     var delay = 1000;    

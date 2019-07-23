@@ -229,8 +229,13 @@ section
   i 
     color: $main
 
-  
-    
+
+#btn-action
+  position: fixed
+  top: 90vh
+  right: 2rem
+  z-index: 3 
+  opacity: .5
 
 .user-view
 	width: 100wh
@@ -389,8 +394,15 @@ h6 text
     width: 100%
     height: 15vh 
     margin: .5rem 0 1rem 0
-  .container
-       
+  
+  .qrcode
+    display: none
+    background: $light
+    img
+      width: 8rem
+      height: 8rem
+
+
   .btn-send
     position: absolute
     i 
@@ -449,7 +461,11 @@ footer.page-footer
   .card
     padding: .5em
 
-@media only screen and (max-width: 992px) 
+
+
+@media only screen and (max-width: 992px)
+
+
   .parallax-container .section 
     position: absolute
     top: 40%

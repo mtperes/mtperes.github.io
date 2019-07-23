@@ -26,7 +26,7 @@
 </head>
 <body>
   
-    <nav class="pushpin-demo-nav" data-target="blue" role="navigation">
+    <nav  id="top" class="pushpin-demo-nav" data-target="blue" role="navigation">
       
         <a id="logo" href="" class="brand-logo">Matheus <br> Nascimento</a>
         
@@ -50,15 +50,15 @@
                   
     <div id="content">
 
-        <a id="btn-action" data-target="slide-up" class="btn-floating btn-large waves-effect waves-light lighten-1 " style="display:none;" ><i class="material-icons">blur_on</i></a>
+        <a id="btn-action" href="#top" data-target="slide-up" class="btn-floating btn-large waves-effect waves-light lighten-1 "><i class="material-icons">arrow_upward</i></a>
 
    
           <section id="aboutme" class="col sm-12 section scrollspy">
               <h4  class="center">About me</h4>
   
-              <p class="text z-depth-3">Born in Brazil , Rio de Janeiro
+              <p class="text z-depth-3">Born in Brazil , Rio de Janeiro. 
                 Since young took computer science as a way of living,
-                it already took him to Canada as an scholarship awarded
+                it already took him around teh world as an scholarship awarded
                 student, and now he wants to make the difference, on programming,
                 designing and making the use of computer the more ubiquitous possible.
                 A creative mind always renewing the knowledge throughout the process of
@@ -418,10 +418,15 @@
                     <footer class="page-footer z-depth-3">
                      
                     <div class="container " >  
+                      <div class="col qrcode z-depth-3"> 
+                        <p>Whatsapp QR Code</p>
+                          <img src="/img/frame.png">
+                      </div>     
+                      
                       <div class="col">
-                         <p> Whatsapp</p>
-                         <a id="btn-send" href="https://wa.me/5521974174282" class="btn-floating btn-large waves-effect waves-tomato"><i class="material-icons">textsms</i></a>
-                          
+                        <p> Whatsapp</p>
+                        <a id="btn-send" href="https://wa.me/5521974174282?t=UXofT" class="btn-floating btn-large waves-effect waves-tomato"><i class="material-icons">textsms</i></a>
+                        
                       </div> 
                       <div class="col">
                           <p>E-mail</p>
@@ -434,8 +439,7 @@
                     </div>
                     <div class="container space">
                       <span>hosted <a href="https://github.com/mtperes/mtperes.github.io">@ Github</a> </span>
-                      <a id="btn-send" href="#top" class="waves-effect waves-tomato"><i class="material-icons">blur_on</i></a>
-                       
+                     
                    </div> 
                     </footer>    
                   </section>
