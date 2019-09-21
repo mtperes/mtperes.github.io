@@ -441,7 +441,7 @@ footer.page-footer .space {
     top: 10%; }
   nav .brand-logo {
     margin-top: 3.5%;
-    left: auto !important; }
+    left: 0rem; }
   .knowchips {
     display: inline-block;
     text-align: center; } }
