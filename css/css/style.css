@@ -133,9 +133,11 @@ li:hover .material-icons:hover {
   opacity: 1; }
 
 .card__title {
-  font-size: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   color: teal;
   margin-bottom: 0; }
+
 
 .card__body {
   line-height: 1rem; }
@@ -390,7 +392,12 @@ h6 text {
     -ms-flex-item-align: auto;
     align-self: auto;
     width: 50%; }
-
+.action-buttons{
+  margin-top: -5rem;
+}
+.action-buttons a i{
+  justify-content: center;
+}
 .parallax-container .parallax img {
   opacity: .8;
   position: absolute;
