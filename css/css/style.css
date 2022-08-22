@@ -6,26 +6,32 @@
  * Made By MaterializeCSS.com
  */
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Mr+Dafoe");
-@import url("https://fonts.googleapis.com/css?family=Condiment");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Dirt"); 
+
+:root {
+  --primary: #002525;
+  --accent: tomato;
+}
 nav {
   background: aliceblue; }
   nav .brand-logo {
-    color: teal;
-    font-family: 'Condiment';
-    -webkit-transform: rotate(-20deg);
+    color: var(--primary);
+    font-family: 'Rubik Dirt';
+    /* -webkit-transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
-    transform: rotate(-20deg);
+    transform: rotate(-20deg); */
     line-height: 26px;
-    margin-top: 1%;
-    text-shadow: 0.5px 0.3px tomato;
-    font-size: 2.4em; }
+    /* text-shadow: 0.5px 0.3px var(--accent , 0); */
+    font-size: 1.8rem;
+    margin: .5rem;
+   }
   nav .btn-floating {
     display: none;
     position: relative;
     margin-left: 70%;
     bottom: -25px; }
     nav .btn-floating i {
-      color: tomato;
+      color: var(--accent);
       -webkit-transition: ease-in .4s, ease-out .4s !important;
       -o-transition: ease-in .4s, ease-out .4s !important;
       transition: ease-in .4s, ease-out .4s !important; }
@@ -33,7 +39,9 @@ nav {
     -webkit-transform: scale(1.5);
     -ms-transform: scale(1.5);
     transform: scale(1.5); }
-
+.btn-floating  {
+  background: var(--primary);
+}
 i {
   -webkit-transition: ease-in .5s, ease-out .5s !important;
   -o-transition: ease-in .5s, ease-out .5s !important;
@@ -46,7 +54,7 @@ li:hover i {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
-  color: tomato; }
+  color: var(--accent); }
 
 li:hover .material-icons:hover {
   -webkit-transform: scale(1.5);
@@ -54,7 +62,7 @@ li:hover .material-icons:hover {
   transform: scale(1.5); }
 
 .sidenav li a i {
-  color: teal !important; }
+  color: var(--primary) !important; }
 
 .sidenav li:hover a {
   background: rgba(0, 128, 128, 0.1); }
@@ -62,7 +70,7 @@ li:hover .material-icons:hover {
     -webkit-transform: scale(1.5);
     -ms-transform: scale(1.5);
     transform: scale(1.5);
-    color: tomato; }
+    color: var(--accent); }
 
 .card {
   position: relative;
@@ -84,14 +92,14 @@ li:hover .material-icons:hover {
     transition: transform ease-out 250ms;
     transition: transform ease-out 250ms, -webkit-transform ease-out 250ms; }
   .card::before {
-    border-top: 4px dotted tomato;
-    border-bottom: 4px dotted tomato;
+    border-top: 4px dotted var(--accent);
+    border-bottom: 4px dotted var(--accent);
     -webkit-transform: scale(0, 1);
     -ms-transform: scale(0, 1);
     transform: scale(0, 1); }
   .card::after {
-    border-left: 4px dotted tomato;
-    border-right: 4px dotted tomato;
+    border-left: 4px dotted var(--accent);
+    border-right: 4px dotted var(--accent);
     -webkit-transform: scale(1, 0);
     -ms-transform: scale(1, 0);
     transform: scale(1, 0); }
@@ -123,7 +131,7 @@ li:hover .material-icons:hover {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: teal;
+  color: var(--primary);
   opacity: 0;
   -webkit-transition: opacity ease-out 250ms;
   -o-transition: opacity ease-out 250ms;
@@ -135,7 +143,7 @@ li:hover .material-icons:hover {
 .card__title {
   font-size: 1.2rem;
   font-weight: bold;
-  color: teal;
+  color: var(--primary);
   margin-bottom: 0; }
 
 
@@ -162,12 +170,12 @@ section {
   section h4, section h6, section .location {
     color: aliceblue; }
   section .job {
-    background: teal;
+    background: var(--primary);
     border-radius: 15px 0 0 0;
     margin-bottom: 2%; }
     section .job .chip {
       font-size: 11pt;
-      color: teal; }
+      color: var(--primary); }
       section .job .chip i {
         font-size: 13pt;
         margin-top: 8px; }
@@ -187,7 +195,7 @@ section {
     color: DarkSlateGray;
     margin: 0; }
   section a {
-    color: teal; }
+    color: var(--primary); }
   section ul, section li {
     color: DarkSlateGray; }
 
@@ -200,7 +208,7 @@ section {
   justify-content: center;
   color: DarkSlateGray; }
   .collapsible-header i {
-    color: teal; }
+    color: var(--primary); }
 
 #btn-action {
   position: fixed;
@@ -280,7 +288,7 @@ section h5 {
   left: 0; }
 
 section h5 {
-  color: tomato !important;
+  color: var(--accent) !important;
   background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png"); }
 
 h6 text {
@@ -300,8 +308,8 @@ h6 text {
   background: yellow; }
   #abouther p i {
     width: 5rem;
-    color: tomato;
-    fill: tomato;
+    color: var(--accent);
+    fill: var(--accent);
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
@@ -311,7 +319,7 @@ h6 text {
     transform: scale(3rem); }
 
 .fav {
-  color: tomato !important; }
+  color: var(--accent) !important; }
 
 .quote-text i {
   position: absolute;
@@ -330,8 +338,8 @@ h6 text {
   text-shadow: 0 0 5px black; }
 
 #content {
-  background: teal;
-  background-image: url("/img/escheresque.png");
+  background: #001414;
+  background-image: url("/img/inspiration-geometry.png");
   background-attachment: fixed;
   width: 100%;
   margin-top: -1.3%; }
@@ -340,7 +348,7 @@ h6 text {
   background-color: aliceblue; }
 
 .slider .indicators .indicator-item.active {
-  background-color: tomato;
+  background-color: var(--accent);
   -webkit-box-shadow: 0px 0px 5px 3px rgba(47, 79, 79, 0.5);
   box-shadow: 0px 0px 5px 3px rgba(47, 79, 79, 0.5);
   -webkit-transform: translateY(-2rem) scale(1.5);
@@ -371,7 +379,7 @@ h6 text {
   .page-footer .btn-send {
     position: absolute; }
     .page-footer .btn-send i {
-      color: tomato;
+      color: var(--accent);
       -webkit-transition: ease-in .4s, ease-out .4s !important;
       -o-transition: ease-in .4s, ease-out .4s !important;
       transition: ease-in .4s, ease-out .4s !important; }
@@ -380,7 +388,7 @@ h6 text {
     -ms-transform: scale(1.5);
     transform: scale(1.5); }
   .page-footer .alert {
-    color: tomato; }
+    color: var(--accent); }
 
 .parallax-container {
   min-height: 380px;
@@ -446,8 +454,8 @@ footer.page-footer .space {
   #index-banner .section {
     top: 10%; }
   nav .brand-logo {
-    margin-top: 3.5%;
-    left: 0rem !important; }
+    transform: none;
+    left: 1rem !important; }
   .knowchips {
     display: inline-block;
     text-align: center; } }
