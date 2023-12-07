@@ -1,0 +1,75 @@
+ <svg id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 690.89 309.74">
+          <defs>
+           
+            <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%" > 
+               
+                 <stop offset="0%" stop-color="#9934f0">
+                    <animate attributeName="stop-color" values=" #6145f2 ; #733ff2 ; #853aee ; #9934f0 ; #9934f0 ; #9934f0 ; #9934f0 ; #853aee; #733ff2 ; #6145f2 ; #4d49f5 ; #3977e2 ;#2aa5cf ; #15d1bc ;#08fcae ;#08fcae ; #08fcae ; #15d1bc ; #2aa5cf ; #3977e2 ; #4d49f5;" dur="10s" repeatCount="indefinite"></animate>
+                </stop> 
+            
+                <stop offset="100%" stop-color="#08fcae">
+                    <animate attributeName="stop-color" values="#08fcae ;#08fcae ; #15d1bc ; #2aa5cf ; #3977e2 ; #4d49f5 ; #6145f2 ; #733ff2; #853aee ; #9934f0; #9934f0; #9934f0; #9934f0; #853aee; #733ff2 ; #6145f2 ; #4d49f5 ; #3977e2 ;#2aa5cf ; #15d1bc ;#08fcae ;#08fcae  " dur="10s" repeatCount="indefinite"></animate>
+                </stop>               
+      
+            </linearGradient> 
+         
+          <style>
+            .cls-1 {
+              fill: none;
+            }
+
+            .cls-2 {
+              clip-path: url(#clip-path);
+            }
+
+            .cls-3 {}
+
+            .cls-4 {
+              clip-path: url(#clip-path-2);
+            }
+
+            .cls-5 {
+              clip-path: url(#clip-path-3);
+            }
+
+            .cls-6 {
+              clip-path: url(#clip-path-4);
+            }
+
+            .cls-7 {
+              clip-path: url(#clip-path-5);
+            }
+          </style>
+          <clipPath id="clip-path" fill="url(#logo-gradient)" transform="translate(-614.55 -385.13)">
+            <path class="cls-1" d="M1132.63,618.21c6.76-5.88,14.07-12.25,22-19.13,20.81-18,41.89-27.05,62.66-27.05a72.88,72.88,0,0,1,36.12,9.75l-76.87-148.86-.13.13-3.59-7.31a49.17,49.17,0,0,0-87.73-1.17l-.66,1.26-76.28,147.73L992,605a49.17,49.17,0,0,0,43.36,72.36C1064.75,677.35,1083.24,661.25,1132.63,618.21Z" />
+          </clipPath>
+          
+          <clipPath fill="url(#logo-gradient)" id="clip-path-2" transform="translate(-614.55 -385.13)">
+            <path class="cls-1" d="M1231.72,583.83c-.5-.11-1-.24-1.49-.34s-1.07-.16-1.6-.24c-1-.17-2.09-.33-3.18-.44-1.81-.18-3.67-.29-5.6-.29-18,0-37.46,8.48-57.82,25.2-7.93,6.85-15.21,13.19-21.94,19-28,24.38-46.84,40.81-63.87,50.58h144.89a47.36,47.36,0,0,0,10.61-93.52Z" />
+          </clipPath>
+          <clipPath id="clip-path-3" fill="url(#logo-gradient)" transform="translate(-614.55 -385.13)">
+            <path class="cls-1" d="M693.28,503.51a72.88,72.88,0,0,1-36.12-9.75L734,642.62l.12-.13,3.6,7.31A49.17,49.17,0,0,0,825.48,651l.66-1.26L902.42,502l16.23-31.44a49.17,49.17,0,0,0-43.36-72.36c-29.43,0-47.92,16.1-97.32,59.14-6.75,5.88-14.06,12.25-22,19.13C735.13,494.41,714.05,503.51,693.28,503.51Z" />
+          </clipPath>
+          <clipPath id="clip-path-4" fill="url(#logo-gradient)" transform="translate(-614.55 -385.13)">
+            <path class="cls-1" d="M642.12,445.57a47.36,47.36,0,0,0,36.77,46.14c.5.11,1,.25,1.49.34s1.06.16,1.59.24c1,.17,2.1.33,3.19.44,1.81.18,3.67.29,5.6.29,18,0,37.46-8.48,57.81-25.2,7.94-6.85,15.22-13.19,21.95-19.05,28-24.38,46.84-40.81,63.87-50.58H689.5A47.38,47.38,0,0,0,642.12,445.57Z" />
+          </clipPath>
+          <clipPath id="clip-path-5" fill="url(#logo-gradient)" transform="translate(-614.55 -385.13)">
+            <rect class="cls-1" x="905.25" y="387.51" width="100.11" height="301.64" rx="50.05" transform="translate(352.25 -377.49) rotate(27.23)" />
+          </clipPath>
+          </defs>
+          <g class="cls-2" fill="url(#logo-gradient)">
+            <polygon class="cls-3" points="690.89 292.22 102.96 309.74 0 0 571.68 0 690.89 292.22" />
+          </g>
+          <g class="cls-4" fill="url(#logo-gradient)">
+            <polygon class="cls-3" points="690.89 292.22 102.96 309.74 0 0 571.68 0 690.89 292.22" />
+          </g>
+          <g class="cls-5" fill="url(#logo-gradient)">
+            <polygon class="cls-3" points="690.89 292.22 102.96 309.74 0 0 571.68 0 690.89 292.22" />
+          </g>
+          <g class="cls-6" fill="url(#logo-gradient)">
+            <polygon class="cls-3" points="690.89 292.22 102.96 309.74 0 0 571.68 0 690.89 292.22" />
+          </g>
+          <g class="cls-7" fill="url(#logo-gradient)">
+            <polygon class="cls-3" points="690.89 292.22 102.96 309.74 0 0 571.68 0 690.89 292.22" />
+          </g>
+        </svg>
