@@ -141,18 +141,18 @@ border-radius: 7px; }
 }
 
 .card:hover .card__text {
+    background: aliceblue;
   opacity: 1; }
 
 .card__title {
-  display: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--primary);
-  margin-bottom: 0; }
+  margin: .5rem; }
 
 
 .card__body {
-  line-height: 1rem; 
+  line-height: 1.4rem; 
   width: 11rem;
 }
 
